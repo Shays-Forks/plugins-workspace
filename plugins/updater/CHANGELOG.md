@@ -1,5 +1,9 @@
 # Changelog
 
+## \[2.0.0-rc.4]
+
+- [`221f50f5`](https://github.com/tauri-apps/plugins-workspace/commit/221f50f53bd7a87dbd404e4cb1aaf502a5047785) ([#1816](https://github.com/tauri-apps/plugins-workspace/pull/1816) by [@amrbashir](https://github.com/tauri-apps/plugins-workspace/../../amrbashir)) Encode `+` when making updater requests which can be cause incorrectly interpolating the endpoint when using `{{current_version}}` in the endpoint where the current version contains a build number, for example `1.8.0+1`.
+
 ## \[2.0.0-rc.3]
 
 - [`d00519e3`](https://github.com/tauri-apps/plugins-workspace/commit/d00519e3e3a3234f9eb6c2ba82c92d4199f03e53) ([#1735](https://github.com/tauri-apps/plugins-workspace/pull/1735) by [@FabianLars](https://github.com/tauri-apps/plugins-workspace/../../FabianLars)) This releases the changes from 2.0.0-rc.2 to crates.io. Please see the links below for the actual changes.
